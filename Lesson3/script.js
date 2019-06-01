@@ -72,7 +72,7 @@ function chooseOptExpenses() {
             i--;
         }
     }
-    appData.optionalExpenses[1] = optionalExpenses;
+    appData.optionalExpenses[i] = optionalExpenses;
 }
 
 
