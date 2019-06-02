@@ -12,3 +12,5 @@ let startCalculate = document.querySelector('#start'),
     month = document.querySelector('.main .result .time-data .month .month-value'),
     day = document.querySelector('.main .result .time-data .day .day-value');
 
+
+
