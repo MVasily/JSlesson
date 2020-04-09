@@ -24,5 +24,3 @@ let percent = document.querySelector('#percent');
 let yearValue = document.querySelector('.year-value');
 let monthValue = document.querySelector('.month-value');
 let dayValue = document.querySelector('.day-value');
-
-console.log(dayValue);
