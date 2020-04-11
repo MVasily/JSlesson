@@ -1,4 +1,4 @@
-let start = document.querySelector('#start'),
+let startBtn = document.querySelector('#start'),
     budgetValue = document.querySelector('.budget-value'),
     dayBudgetValue = document.querySelector('.daybudget-value'),
     levelValue = document.querySelector('.level-value'),
@@ -24,3 +24,19 @@ let percent = document.querySelector('#percent');
 let yearValue = document.querySelector('.year-value');
 let monthValue = document.querySelector('.month-value');
 let dayValue = document.querySelector('.day-value');
+
+let money,
+    time;
+
+
+startBtn.addEventListener('click',)
+
+
+const appData = {
+    budget: money,
+    timeData: time,
+    expenses: {},
+    optionalExpenses: {},
+    income: [],
+    savings: false,
+};

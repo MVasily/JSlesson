@@ -15,7 +15,7 @@ let startCalculateBtn = document.querySelector('#start'),
     calculateExpensesBtn = document.querySelector('.main .data .count-budget-btn'),
     optionalExpensesItems = document.querySelectorAll('.main .data .optionalexpenses-item'),
     optionalExpensesAcceptBtn = document.querySelector('.main .data .optionalexpenses-btn'),
-    possibleIncomes = document.querySelector('.main .data .choose-income'),
+    choseIncome = document.querySelector('.main .data .choose-income'),
     checkBox = document.querySelector('.main .data .checksavings #savings'),
     sum = document.querySelector('.main .data .choose-sum'),
     percent = document.querySelector('.main .data .choose-percent'),
@@ -110,8 +110,8 @@ calculateExpensesBtn.addEventListener('click', function () {
 
 });
 
-possibleIncomes.addEventListener('input', function(){
-    let items = possibleIncomes.value;
+choseIncome.addEventListener('input', function(){
+    let items = choseIncome.value;
     appData.income = items.split(', ');
     incomeValue.textContent = appData.income;
 });
